@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny Loot -Cheap And Quality Products</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Customize your styles here */
+        .carousel {
+            margin-bottom: 50px;
+            /* Adding gap from the bottom */
+        }
+
+        .card {
+            height: 449px;
+            /* Increased height for the cards */
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            /* Adjusted font size for card titles */
+        }
+
+        .card-text {
+            font-size: 1rem;
+            /* Adjusted font size for card text */
+        }
+
+        .selling-best {
+            text-align: center;
+            font-weight: 700;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        footer{
+            background-color: #677679;
+            color: #677679;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Brand Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="brand-logo.png" alt="Brand Logo" width="180" height="30" class="d-inline-block align-top">
+            </a>
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Collapse -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Navbar Links -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Helpdesk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Request For Quotation</a>
+                    </li>
+                </ul>
+
+                <!-- Login Button -->
+                <button class="btn btn-outline-primary mx-2" type="button">Login</button>
+                <!-- Sign Up Button -->
+                <button class="btn btn-primary mx-2" type="button">Sign Up</button>
+                <!-- Cart Button -->
+                <button class="btn btn-light" type="button">
+                    <i class="fas fa-shopping-cart"></i> Cart
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container  my-3">
+        <!--Carousal-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="bnr1.png" class="d-block w-100" alt="Dummy Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="bnr2.png" class="d-block w-100" alt="Dummy Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="bnr1.png" class="d-block w-100" alt="Dummy Image 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container">
+            <h4 class="selling-best">Our Best Selling Collection</h4>
+        </div><br>
+
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5">
+                <!-- Shopping Cards -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other cards -->
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5">
+                <!-- Shopping Cards -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other cards -->
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="container">
+            <h4 class="selling-best">Buy More Save More
+            </h4>
+        </div> <br>
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5">
+                <!-- Shopping Cards -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other cards -->
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5">
+                <!-- Shopping Cards -->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="allproduct.jpg" class="card-img-top" alt="Dummy Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <div class="mb-3">
+                                <!-- Product Rating -->
+                                <span class="badge bg-primary">4.5</span>
+                                <!-- Product Price -->
+                                <span class="badge bg-success">$20</span>
+                            </div>
+                            <!-- Short Product Description -->
+                            <p class="card-text">Short product description goes here.</p>
+                            <!-- Add to Cart Button -->
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other cards -->
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="bg-dark text-white py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Quick Links -->
+                    <div class="col-md-2">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">My Account</a></li>
+                            <li><a href="#" class="text-white">Shopping Cart</a></li>
+                            <li><a href="#" class="text-white">FAQs</a></li>
+                            <li><a href="#" class="text-white">Feedback</a></li>
+                            <li><a href="#" class="text-white">Shipping Policy</a></li>
+                        </ul>
+                    </div>
+                     <!-- Useful Links -->
+                     <div class="col-md-2">
+                        <h5>Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">About Us</a></li>
+                            <li><a href="#" class="text-white">Contact Us</a></li>
+                            <li><a href="#" class="text-white">Privacy Policy</a></li>
+                            <li><a href="#" class="text-white">Refund Policy</a></li>
+                            <li><a href="#" class="text-white">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <!-- Contact Info -->
+                    <div class="col-md-4">
+                        <h5>Contact Us</h5>
+                        <p>Call us between 11:00 AM - 6:00 PM<br>
+                            <a href="tel:+09876543098" class="text-white">
+                                <i class="fas fa-phone-alt"></i> +91-0987654328
+                            </a><br>
+                            <a href="https://wa.me/09876543987" class="text-white">
+                                <i class="fab fa-whatsapp"></i> 0987654320
+                            </a>
+                        </p>
+                        
+                    </div>
+                   
+                    
+                    <div class="col-md-4">
+                        
+                        <h5>Contact Info</h5>
+                        <p>Penny Loot Private Limited<br>
+                            3rd & 4th Floor, Plot. 2364/8,<br>
+                            Jamia Masjid rd, New Delhi - 110008, India
+                        </p>
+                    </div>
+
+
+                </div>
+                <!-- Copyright -->
+                <hr class="my-4">
+                <div class="text-center">
+                    <p>&copy; 2024 Penny Loot</p>
+                </div>
+                <!-- Follow Us
+                <div class="text-center">
+                    <p>Follow Us</p>
+                    Add social media icons or links here 
+                </div> -->
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS (Optional, for Bootstrap components that require JavaScript) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Tailwind JS (Optional, for Tailwind CSS components that require JavaScript) -->
+        <script src="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.js"></script>
+        <!--Font Awesome CDN-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <script>
+            // Your JavaScript code here
+        </script>
+</body>
+
+</html>
